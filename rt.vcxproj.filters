@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="external\D3D12MemAlloc.cpp">
+      <Filter>external</Filter>
+    </ClCompile>
+    <ClCompile Include="mini_vg.cpp" />
+    <ClCompile Include="rt.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="external\D3D12MemAlloc.h">
+      <Filter>external</Filter>
+    </ClInclude>
+    <ClInclude Include="external\d3d12shader.h">
+      <Filter>external</Filter>
+    </ClInclude>
+    <ClInclude Include="external\d3dx12.h">
+      <Filter>external</Filter>
+    </ClInclude>
+    <ClInclude Include="external\dxcapi.h">
+      <Filter>external</Filter>
+    </ClInclude>
+    <ClInclude Include="external\stb_image.h">
+      <Filter>external</Filter>
+    </ClInclude>
+    <ClInclude Include="mini_vg.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="external">
+      <UniqueIdentifier>{af9af2d1-b6e7-4023-bcbd-33601ca54633}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
